@@ -1,0 +1,140 @@
+body{
+    background-color: white;
+}
+body>*{
+    padding: 50px;
+}
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.navbar{
+    display: flex;
+    background-color:  #1f2937;
+    color: antiquewhite;
+    justify-content: space-between;
+}
+.navbar > .logo{
+    display: flex;
+    align-items: flex-start;
+    justify-content: flex-start;
+    font-family: 'roboto';
+}
+.right-navbar > ul{
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+    list-style-type: none;
+    font-family: 'roboto';
+    gap: 20px;
+    padding: 5px;
+}
+.Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #1f2937;
+    color: antiquewhite;
+}
+.title-header{
+    font-size: 48px;
+    justify-content: flex-start;
+}
+.title-sub{
+    font-size: 18px;
+}
+.right-side-header{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+.right-side-header > img{
+    width: 200px;
+    height: auto;
+}
+.Header button{
+    align-content: center;
+    align-items: center;
+    background-color: lightseagreen;
+    padding: 20px;
+    margin-top: 30px;
+}
+
+.content>.cartas{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.card>img{
+    width: 80%;
+    height: auto;
+    border-radius: 20px;
+    margin: 10px;
+    
+        border: 2px solid red;
+        border-radius: 20px;
+        margin: 20px;
+
+}
+
+.card>p{
+    text-align: center;
+
+}
+
+.inspiring-quote{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-size: 36px;
+    color: #1f2937;
+    weight: 900px;
+    padding: 150px;
+}
+.inspiring-quote > .Sign{
+    display: flex;
+    justify-content:flex-end;
+    align-items:flex-end;
+    font-weight: bold;
+    font-size: 20px;
+    
+}
+
+.Join-In-sign{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #3882f6;
+    color: antiquewhite;
+    flex: 1;
+}
+
+.right-side-footer > button{
+    background-color: #3882f6;
+    color: antiquewhite;
+    border: 2px solid white;
+    border-radius: 4px;
+    padding: 10px;
+    width: 120px;
+    display: flex;
+    flex: auto;
+    justify-content: center;
+
+}
+
+.footer{
+    background-color: #1f2937;
+    color: antiquewhite;
+    text-align: center;
+}
+
+
+
+
+
+
+
